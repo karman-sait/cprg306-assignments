@@ -14,7 +14,7 @@ export default function Home() {
       <li><Link href="/week-8">week-8</Link></li>
       <li><Link href="/week-9">week-9</Link></li>
       <li><Link href="/week-10">week-10</Link></li>
-      <li><Link href="/weather-view">Final Project: WeatherView</Link></li>
+      <li><Link href="https://final-project-cprg-306-5z2n-mx3r2pm0t.vercel.app">Final Project: WeatherView</Link></li>
       </main>
   );
 }
