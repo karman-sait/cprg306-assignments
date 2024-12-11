@@ -21,7 +21,7 @@ export default function ItemList({ items, onItemSelect }) {
     <div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
         <button onClick={() => setSortBy('name')} style={{
-          backgroundColor: sortBy === 'name' ? '#e67e22' : '#d35400', // Lighter for selected, darker for non-selected
+          backgroundColor: sortBy === 'name' ? '#e67e22' : '#d35400', 
           color: 'white',
           padding: '10px 15px',
           border: 'none',
@@ -30,7 +30,7 @@ export default function ItemList({ items, onItemSelect }) {
           outline: 'none'
         }}>Sort by Name</button>
         <button onClick={() => setSortBy('category')} style={{
-          backgroundColor: sortBy === 'category' ? '#e67e22' : '#d35400', // Lighter for selected, darker for non-selected
+          backgroundColor: sortBy === 'category' ? '#e67e22' : '#d35400', 
           color: 'white',
           padding: '10px 15px',
           border: 'none',

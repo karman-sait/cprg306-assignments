@@ -62,7 +62,7 @@ export default function ItemList() {
       <ul style={{ 
           listStyle: 'none', 
           padding: '0', 
-          maxWidth: '400px' /* Set max width to keep items from stretching too wide */
+          maxWidth: '400px' 
         }}>
         {sortedItems.map(item => (
           <Item key={item.id} name={item.name} quantity={item.quantity} category={item.category} />

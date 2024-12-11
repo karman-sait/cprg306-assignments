@@ -1,8 +1,8 @@
-"use client"; // Add this directive at the top of the file to mark it for client-side rendering
+"use client"; 
 import React, { useState } from 'react';
-import ItemList from './item-list';  // Make sure this path is correct
-import NewItem from './new-item';  // Make sure this path is correct
-import itemsData from './items.json';  // Make sure this path is correct
+import ItemList from './item-list';  
+import NewItem from './new-item';  
+import itemsData from './items.json';  
 
 export default function Page() {
   const [items, setItems] = useState(itemsData);
